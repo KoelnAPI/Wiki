@@ -1,5 +1,5 @@
 """
-Django settings for KoelnApiWiki project.
+Django settings for koeln_api_wiki project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -72,9 +72,9 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     "sekizai.context_processors.sekizai",
 )
 
-ROOT_URLCONF = 'KoelnApiWiki.urls'
+ROOT_URLCONF = 'koeln_api_wiki.urls'
 
-WSGI_APPLICATION = 'KoelnApiWiki.wsgi.application'
+WSGI_APPLICATION = 'koeln_api_wiki.wsgi.application'
 
 
 # Database
